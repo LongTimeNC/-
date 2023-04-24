@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/emp?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8&tinyInt1isBit=true
+    username: root
+    password: woaini5488142
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    prefix: classpath:/templates
+    suffix: .jsp
+    cache: false
+
+
